@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size: 50px;
+    color: rgb(44, 44, 44);
+}
+p, a{
+    font-family: 'Poppins', sans-serif;
+}
+span{
+    color: tomato;
+}
+p{
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;   
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 80%;
+}
+.top-part{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/* about part css */
+.about{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
+.about-part{
+    display: flex;
+    justify-content: center;
+}
+.half-width2 {
+    width: 50%;
+}
+.half-width2 img{
+    width: 50%;
+    display: flex;
+    margin-left: 50px;
+}
+
+
